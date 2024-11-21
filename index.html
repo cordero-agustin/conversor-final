@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Link CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Link JS-->
+    <script defer src="js/main.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Conversor de divisas</h1>
+    <div class="centrar-caja">
+        <div class="caja">
+            <input type="number" id="cantidad" placeholder="Cantidad">
+            <select id="desde">
+                <option value="" disabled selected>De:</option>
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="ARS">ARS</option>
+            </select>
+            <select id="hacia">
+                <option value="" disabled selected>A:</option>
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="ARS">ARS</option>
+            </select>
+            <button id="botonConversor">Convertir</button>
+        </div>
+    </div>
+    <h2 id="resultado"></h2>
+    <div class="btnhistorial"><p class="titulo-historial">Historial:</p>
+        <button id="botonLimpiarHistorial" class="btnlimpiar">Limpiar Historial</button></div>
+
+    <divc class="centrar-historial">
+        <div class="historial-conversion">
+            <div id="historial"></div>
+          </div>
+          
+    </div>
+    
+   
+
+
+</body>
+
+</html>
